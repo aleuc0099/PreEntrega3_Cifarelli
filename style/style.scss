@@ -54,42 +54,6 @@ a {
     height: 420vh;
 }
 
-/* inicio footer */
-
-footer {
-    background-color: blueviolet;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    color: white;
-}
-
-.redes_father {
-    align-items: center;
-}
-
-.redes_txt {
-    text-transform: uppercase;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-}
-
-.red1 {
-    background-color: white;
-    padding: 1px 5px;
-    border-radius: 100%;
-    /* display: flex; */
-    text-align: center;
-}
-
-.derechos_father {
-    padding-top: 20px;
-}
-
-/* fin footer */
-
 @import "_header";
 @import "_box";
 @import "_footer";

@@ -1,0 +1,31 @@
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: white;
+
+    .redes_father {
+        align-items: center;
+
+        .redes_son {
+            .redes_txt {
+                text-transform: uppercase;
+                font-family: "Rubik", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: bold;
+                font-style: normal;
+            }
+
+            .red_icon {
+                background-color: white;
+                padding: 1px 5px 2px 5px;
+                border-radius: 90px;
+            }
+        }
+    }
+
+    .derechos_father {
+        padding-top: 20px;
+    }
+}

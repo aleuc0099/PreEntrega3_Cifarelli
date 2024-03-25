@@ -48,40 +48,6 @@ a {
   height: 420vh;
 }
 
-/* inicio footer */
-footer {
-  background-color: blueviolet;
-  text-align: center;
-  padding-top: 15px;
-  padding-bottom: 20px;
-  color: white;
-}
-
-.redes_father {
-  align-items: center;
-}
-
-.redes_txt {
-  text-transform: uppercase;
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-}
-
-.red1 {
-  background-color: white;
-  padding: 1px 5px;
-  border-radius: 100%;
-  /* display: flex; */
-  text-align: center;
-}
-
-.derechos_father {
-  padding-top: 20px;
-}
-
-/* fin footer */
 header {
   background-color: gainsboro;
   align-items: center;
@@ -252,4 +218,30 @@ header .sign_in_button .inscribite:hover {
 .box .box_content .comenzar_button:hover {
   box-shadow: 0 0 5px black;
   transform: scale(1.1);
+}
+
+footer {
+  background-color: blueviolet;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: white;
+}
+footer .redes_father {
+  align-items: center;
+}
+footer .redes_father .redes_son .redes_txt {
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+footer .redes_father .redes_son .red_icon {
+  background-color: white;
+  padding: 1px 5px 2px 5px;
+  border-radius: 90px;
+}
+footer .derechos_father {
+  padding-top: 20px;
 }/*# sourceMappingURL=style.css.map */
