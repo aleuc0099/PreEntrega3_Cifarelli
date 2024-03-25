@@ -89,6 +89,7 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   position: fixed;
+  z-index: 2;
 }
 header .logo_father {
   display: flex;
@@ -201,6 +202,7 @@ header .sign_in_button .inscribite:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: all 0.7s;
 }
 .box .box_content {
   display: flex;
