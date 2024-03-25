@@ -48,6 +48,15 @@ a {
   height: 420vh;
 }
 
+.main2 {
+  text-align: center;
+  background-color: gray;
+  justify-content: center;
+  height: 420vh;
+  display: flex;
+  padding: 0px;
+}
+
 header {
   background-color: gainsboro;
   align-items: center;
@@ -218,6 +227,23 @@ header .sign_in_button .inscribite:hover {
 .box .box_content .comenzar_button:hover {
   box-shadow: 0 0 5px black;
   transform: scale(1.1);
+}
+
+.about {
+  margin-top: 200px;
+}
+.about .title_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  padding: 10px;
+}
+.about .title_box .about_title {
+  margin-top: 8px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400px;
+  color: white;
 }
 
 footer {

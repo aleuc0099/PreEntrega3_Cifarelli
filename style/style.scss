@@ -53,7 +53,16 @@ a {
     justify-content: center;
     height: 420vh;
 }
+.main2 {
+    text-align: center;
+    background-color: gray;
+    justify-content: center;
+    height: 420vh;
+    display: flex;
+    padding: 0px;
+}
 
 @import "_header";
 @import "_box";
+@import "_about";
 @import "_footer";

@@ -1,0 +1,18 @@
+.about {
+    margin-top: 200px;
+
+    .title_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: blueviolet;
+        padding: 10px;
+        .about_title {
+            margin-top: 8px;
+            font-family: $rubik;
+            font-weight: 400px;
+            color: white;
+        }
+    }
+
+}
