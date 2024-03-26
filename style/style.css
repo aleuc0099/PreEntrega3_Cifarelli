@@ -45,22 +45,24 @@ a {
   grid-template-columns: repeat(1, 100%);
   grid-template-rows: 200px 500px 500px 500px;
   justify-content: center;
-  height: 420vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .main2 {
   text-align: center;
   background-color: gray;
   justify-content: center;
-  height: 270vh;
   display: flex;
   padding: 0px;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 header {
   background-color: gainsboro;
   align-items: center;
-  height: 150px;
+  height: 160px;
   padding-top: 10px;
   padding-bottom: 10px;
   position: fixed;
@@ -230,7 +232,7 @@ header .sign_in_button .inscribite:hover {
 }
 
 .about {
-  margin-top: 150px;
+  margin-top: 160px;
 }
 .about .title_box {
   display: flex;
@@ -262,7 +264,6 @@ header .sign_in_button .inscribite:hover {
 }
 .about .text_box .img {
   height: 200px;
-  width: 100%;
   border: 1px solid #000;
   background-position: center;
   background-repeat: no-repeat;

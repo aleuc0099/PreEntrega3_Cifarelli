@@ -51,17 +51,18 @@ a {
     grid-template-columns: repeat(1, 100%);
     grid-template-rows: 200px 500px 500px 500px;
     justify-content: center;
-    height: 420vh;
+    height: fit-content;
 }
 .main2 {
     text-align: center;
     background-color: gray;
     justify-content: center;
-    height: 270vh;
     display: flex;
     padding: 0px;
+    height: fit-content;
 }
 
+// import
 @import "_header";
 @import "_box";
 @import "_about";
