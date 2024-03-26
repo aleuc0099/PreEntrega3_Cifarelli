@@ -52,7 +52,7 @@ a {
   text-align: center;
   background-color: gray;
   justify-content: center;
-  height: 420vh;
+  height: 270vh;
   display: flex;
   padding: 0px;
 }
@@ -60,7 +60,7 @@ a {
 header {
   background-color: gainsboro;
   align-items: center;
-  height: auto;
+  height: 150px;
   padding-top: 10px;
   padding-bottom: 10px;
   position: fixed;
@@ -230,7 +230,7 @@ header .sign_in_button .inscribite:hover {
 }
 
 .about {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .about .title_box {
   display: flex;
@@ -244,6 +244,41 @@ header .sign_in_button .inscribite:hover {
   font-family: "Rubik", sans-serif;
   font-weight: 400px;
   color: white;
+}
+.about .text_box {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat 100px 200px 100px 200px 100px 200px 100px 200px 100px 200px 100px 200px 100px 200px 100px 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.about .text_box .aboutp {
+  padding-top: 20px;
+  text-align: left;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+.about .text_box .img {
+  height: 200px;
+  width: 100%;
+  border: 1px solid #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .text_box .img1 {
+  background-image: url(../media/alejo1.jpg);
+}
+.about .text_box .img2 {
+  background-image: url(../media/alejo2.jpg);
+}
+.about .text_box .img3 {
+  background-image: url(../media/alejo3.jpg);
+}
+.about .text_box .img4 {
+  background-image: url(../media/alejo4.jpg);
 }
 
 footer {

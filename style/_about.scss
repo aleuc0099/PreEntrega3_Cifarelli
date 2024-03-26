@@ -1,5 +1,5 @@
 .about {
-    margin-top: 200px;
+    margin-top: 150px;
 
     .title_box {
         display: flex;
@@ -14,5 +14,39 @@
             color: white;
         }
     }
-
+    .text_box{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat 100px 200px 100px 200px 100px 200px 100px 200px 100px 200px 100px 200px 100px 200px 100px 200px;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        padding-bottom: 20px;
+        .aboutp{
+            padding-top: 20px;
+            text-align: left;
+            font-family: $rubik;
+            font-weight: 500;
+        }
+        .img{
+            height: 200px;
+            width: 100%;
+            border: 1px solid #000;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .img1{
+            background-image: url(../media/alejo1.jpg);
+        }
+        .img2{
+            background-image: url(../media/alejo2.jpg);
+        }
+        .img3{
+            background-image: url(../media/alejo3.jpg);
+        }
+        .img4{
+            background-image: url(../media/alejo4.jpg);
+        }
+    }
 }
